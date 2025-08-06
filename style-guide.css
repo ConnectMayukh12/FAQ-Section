@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: primary font custom;
+  src: url(https://fishlease.magicoweb.com:443/webomagic/getFile?Authorization=aaa&userId=1&fid=400);
+}
+
+@font-face {
+  font-family: Secondary Font Custom;
+  src: url(https://fishlease.magicoweb.com:443/webomagic/getFile?Authorization=aaa&userId=1&fid=409);
+}
+
+@font-face {
+  font-family: Tertiary Font Custom;
+  src: url(https://fishlease.magicoweb.com:443/webomagic/getFile?Authorization=aaa&userId=1&fid=410);
+}
+
+@font-face {
+  font-family: Quaternary Font Custom;
+  src: url(https://fishlease.magicoweb.com:443/webomagic/getFile?Authorization=aaa&userId=1&fid=411);
+}
+
+@font-face {
+  font-family: Quinary Font Custom;
+  src: url(https://fishlease.magicoweb.com:443/webomagico/getFile?Authorization=aaa&userId=1&fid=412);
+}
+
+:root {
+  --primary_radius: 15px;
+  --secondary_font_local: secondary font local;
+  --primary_para: 16px;
+  --octonary_light: 200;
+  --primary_font: "Segoe UI";
+  --quaternary_heading: 24px;
+  --secondary_para: 14px;
+  --senary_bg: #f8f9fa;
+  --septenary_fw: 600;
+  --primary_color: #333;
+  --quaternary_font_local: quaternary font local;
+  --secondery_font: Tahoma;
+  --quaternary_fw: 700;
+  --quinary_radius: 20px;
+  --tertiary_text: 18px;
+  --quinary_text: 12px;
+  --primary_bg: white;
+  --tertiary_radius: 30px;
+  --nonary_thin: 100;
+  --tertiary_font_local: tertiary font local;
+  --quinary_color: #666;
+  --secondary_color: #666;
+  --quaternary_bg: #000;
+  --primary_fw: 700;
+  --quinary_font_custom: Quinary Font Custom;
+  --quaternary_font_custom: Quaternary Font Custom;
+  --secondary_heading: 40px;
+  --secondary_bg: white;
+  --secondary_fw: 600;
+  --quinary_bg: white;
+  --primary_font_custom: primary font custom;
+  --secondary_text: 18px;
+  --secondary_radius: 25px;
+  --quinary_heading: 22px;
+  --tertiary_color: #333;
+  --quaternary_text: 16px;
+  --quaternary_color: white;
+  --quinary_fw: 600;
+  --quinary_font_local: quinary font local;
+  --multi: 1;
+  --tertiary_heading: 40px;
+  --secondary_font_custom: Secondary Font Custom;
+  --primary_font_local: primary font local;
+  --tertiary_bg: white;
+  --senary_fw: 400;
+  --primary_heading: 42px;
+  --tertiary_fw: 700;
+  --primary_text: 20px;
+  --tertiary_font_custom: Tertiary Font Custom;
+  --quaternary_radius: 30px;
+}
+
+body.light,
+body .light {
+  --primary_bg: white;
+  --tertiary_bg: #f8f9fa;
+  --secondary_bg: white;
+  --quinary_bg: white;
+  --quinary_color: #666;
+  --secondary_color: #666;
+  --tertiary_color: #333;
+  --quaternary_color: white;
+  --senary_bg: #f8f9fa;
+  --quaternary_bg: #000;
+  --primary_color: #333;
+}
+
+body.dark,
+body .dark {
+  --primary_bg: #0d1117;
+  --tertiary_bg: #21262d;
+  --secondary_bg: #161b22;
+  --quinary_bg: #21262d;
+  --quinary_color: #f0f6fc;
+  --secondary_color: #8b949e;
+  --tertiary_color: #f0f6fc;
+  --quaternary_color: #0d1117;
+  --senary_bg: #161b22;
+  --quaternary_bg: #ffc107;
+  --primary_color: #f0f6fc;
+}
