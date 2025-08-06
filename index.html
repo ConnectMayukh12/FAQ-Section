@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Section</title>
+
+    <!-- Font Awesome 6.5.0 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Style Guide CSS -->
+    <link rel="stylesheet" href="style_guide.css">
+
+    <!-- Custom Styles CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* All styles moved to external CSS files */
+    </style>
+</head>
+
+<body class="light">
+    <!-- Top Controls Container -->
+    <div class="top-controls-container">
+        <!-- Accessibility Controls -->
+        <div class="accessibility-container">
+            <button class="accessibility-btn zoom_out" title="Decrease Font Size">A-</button>
+            <button class="accessibility-btn zoom_normal" title="Normal Font Size">A</button>
+            <button class="accessibility-btn zoom_in" title="Increase Font Size">A+</button>
+        </div>
+
+        <!-- Theme Toggle Button -->
+        <div class="theme-toggle-container">
+            <button id="theme-toggle" class="theme-toggle-btn">
+                <i class="fas fa-moon" id="theme-icon"></i>
+                <span id="theme-text">Dark Mode</span>
+            </button>
+        </div>
+    </div>
+    <div class="faq-container">
+        <div class="faq-header fade-in">
+            <h1>Everything you need to know</h1>
+            <p>We've answered the most common questions about our services. If you need more information, we're just a
+                message away.</p>
+        </div>
+
+        <div class="faq-content">
+            <div class="faq-item fade-in">
+                <button class="faq-question active" data-bs-target="#faq1">
+                    <span>How do you ensure project success?</span>
+                    <span class="faq-icon"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="faq-answer active" id="faq1">
+                    <p>We use a proven methodology that includes thorough planning, regular check-ins, iterative
+                        development, and continuous client feedback to ensure every project meets its objectives.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <button class="faq-question" data-bs-target="#faq2">
+                    <span>What happens after project completion?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="faq-answer" id="faq2">
+                    <p>After project completion, we provide comprehensive documentation, training for your team, ongoing
+                        support options, and maintenance services to ensure your solution continues to perform
+                        optimally.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <button class="faq-question" data-bs-target="#faq3">
+                    <span>Can you work within our budget?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="faq-answer" id="faq3">
+                    <p>Absolutely! We work closely with clients to understand their budget constraints and develop
+                        solutions that maximize value within those parameters. We offer flexible engagement models and
+                        scalable solutions.</p>
+                </div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <button class="faq-question" data-bs-target="#faq4">
+                    <span>How do you handle scope changes?</span>
+                    <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="faq-answer" id="faq4">
+                    <p>We have a structured change management process that evaluates the impact of scope changes on
+                        timeline, budget, and resources. All changes are documented and approved before implementation
+                        to maintain project clarity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
